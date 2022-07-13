@@ -1,0 +1,66 @@
+/* Box Model Hack */
+/* * {
+  box-sizing: border-box;
+} */
+
+/* Clear fix hack */
+/* .clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+} */
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.big_square{
+  width: 80vmin;
+  height: 70vmin;
+ 
+  border: rgb(1, 2, 4) solid 1.2vmin;
+}
+
+
+.center_square{
+  width: 70vmin;
+  height: 60vmin;
+ 
+  border: rgb(1, 2, 4) solid 1.2vmin;
+}
+
+
+        
+.leaf {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #32557f;
+}
+
+.leaf {
+ 
+  border-radius: 0 100%;
+}
+
+
+    
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
